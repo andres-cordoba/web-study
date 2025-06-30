@@ -19,13 +19,25 @@
       </tr>
     </table>
 
-    <table style="border-inline: inherit">
-      <th colspan="3;" style="border: ridge; text-align: center">
+    <table
+      border="4"
+      style="border-collapse: collapse; text-align: center width: 80%; margin: auto;"
+    >
+      <th
+        colspan="3;"
+        style="
+          border: 4px double;
+          background-color: silver;
+          padding: 10px;
+          font-weight: bold;
+          text-align: center;
+        "
+      >
         Niveles de organizacion
       </th>
       <tr>
-        <td style="border: ridge; text-align: center">Bajo</td>
-        <td style="border: ridge; text-align: center">
+        <td style="text-align: center">Bajo</td>
+        <td style="text-align: center">
           <ul style="list-style: square; text-align: center">
             <!--no encontre viñeta en el lenguaje-->
             <li>punto 1</li>
@@ -37,36 +49,51 @@
             <li>punto 3</li>
           </ul>
         </td>
-        <td style="border: ridge; text-align: center">Cerrado</td>
+        <td style="text-align: center">Cerrado</td>
       </tr>
       <tr>
-        <td style="border: ridge; text-align: center">Medio</td>
-        <td style="border: ridge; text-align: center">
+        <td style="text-align: center">Medio</td>
+        <td style="text-align: center">
           <ul style="list-style: square; text-align: center">
-            Punto 2
+            <li>Punto 2</li>
           </ul>
         </td>
-        <td style="border: ridge; text-align: center">Abierto</td>
+        <td style="text-align: center">Abierto</td>
       </tr>
       <tr>
-        <td style="border: ridge; text-align: center">Alto</td>
-        <td style="border: ridge; text-align: center">
+        <td style="text-align: center">Alto</td>
+        <td style="text-align: center">
           <ul style="list-style: square; text-align: center">
-            punto 1
+            <li>punto 1</li>
           </ul>
           <ul style="list-style: square; text-align: center">
-            punto 4
+            <li>punto 4</li>
           </ul>
         </td>
-        <td style="border: ridge; text-align: center">Cerrado</td>
+        <td style="text-align: center">Cerrado</td>
       </tr>
       <tr>
-        <td style="border: ridge; text-align: center">Muy Alto</td>
-        <td style="border: ridge; text-align: center">Ninguno</td>
-        <td style="border: ridge; text-align: center">Cerrado</td>
+        <td style="text-align: center">Muy Alto</td>
+        <td style="text-align: center">Ninguno</td>
+        <td style="text-align: center">Cerrado</td>
       </tr>
     </table>
 
+    <table border="1" style="border-collapse: collapse">
+      <th style="border-collapse: collapse" colspan="4; text-align: center">
+        Conceptos
+      </th>
+      <tr style="text-align: center">
+        <td rowspan="2" style="text-align: center">Posición a</td>
+        <td>Código 1</td>
+        <td rowspan="2" style="text-align: center">Posición b</td>
+        <td>Código alfa</td>
+      </tr>
+      <tr>
+        <td>Código 2</td>
+        <td>Código beta</td>
+      </tr>
+    </table>
     <br />
   </body>
 </html>
